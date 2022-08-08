@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.main {
+    background-color: rgb(194, 194, 121);
+}
+
+.hero-head {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+    gap: 50px;
+    padding: 90px 0;
+}
+.stuff {
+    width: 450px;
+}
+.stuff button {
+    background-color: #3882f6;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: none;
+    padding: 8px 30px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.hero-head h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.hero-head p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-head .image {
+    width: 500px;
+    height: 200px;
+    background-color: darkgray;
+}
+
+.hero-chest {
+    background-color: #fff;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.hero-chest h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+
+.box {
+    height: 180px;
+    width: 180px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+  
+}
+.card {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-belly {
+    
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+.quote blockquote {
+    font-size: 36px;
+    color: #1f2937;
+}
+.quote {
+    width: 600px;
+    height: 600px;;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote p {
+    align-self: flex-end;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-feet {
+    background-color: white;
+    height: 400px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.cta {
+    padding: 60px 120px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+.cta h3 {
+    font-size: 24px;
+}
+.cta button {
+    margin-left: 100px;
+    padding: 10px 40px;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 500px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 50px;
+}
