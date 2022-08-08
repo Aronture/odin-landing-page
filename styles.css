@@ -13,7 +13,7 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     
 }
@@ -21,11 +21,13 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    padding-left: 140px;
 }
 .header ul{
     display: flex;
     list-style-type: none;
     gap: 15px;
+    margin-right: 140px;
 }
 ul a {
     text-decoration: none;
@@ -70,7 +72,7 @@ ul a {
 }
 .hero-head .image {
     width: 500px;
-    height: 200px;
+    height: 222px;
     background-color: darkgray;
 }
 
